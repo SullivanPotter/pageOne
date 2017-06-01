@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Keaton Henson</title>
+	<style type="text/css">
+
+
+	html, body{
+		margin: 0;
+		padding: 0;
+	}
+
+      body { 
+
+		background: url(uma/16.jpg) center center fixed;
+		background-size: cover; /*Css padrão*/ 
+			-webkit-background-size: cover; /*Css safari e chrome*/ 
+			-moz-background-size: cover; /*Css firefox*/ 
+			-ms-background-size: cover; /*Css IE não use mer#^@%#*/ 
+			-o-background-size: cover; /*Css Opera*/ 
+	}
+
+	@font-face {
+		font-family: georgia;
+        src: url(DolceVita.ttf);
+    }
+
+    h1 {
+		font-family: Dolce Vita;
+		text-align: center;/*Lugar para formatar seu texto h1 aplicando cor, fonte ou centralização etc*/
+		color: white; 
+	}
+
+	h2 {
+		text-align: right;
+	}
+
+	h3 {
+		font-family: Dolce Vita;
+		text-align: center;/*Lugar para formatar seu texto h1 aplicando cor, fonte ou centralização etc*/
+		color: white;
+	}
+
+	img {
+		
+		opacity: 0.5;
+
+	}
+	.foto{
+		box-shadow: 2px 8px 50px #fff;
+		border-left-radius: 40%;
+		border-top-right-radius: 40%;
+	}
+
+	img:hover{
+		opacity: 1;
+		cursor: pointer;
+	}
+	
+	#footer {position: relative;/* para posicionar um rodapé*/
+		margin-top: -150px; /* valor negativo da altura do rodapé */
+		height: 150px;
+		clear:both;
+	}
+
+	#Letra {
+    	margin-left: 0%; /*um modo de puxar as edições css para uma div pronta e aplicar mudaças como margens */
+    	text-align: center;
+	}
+
+	
+	#audio {
+		text-align: center;
+	}
+
+	#video {
+		text-align: center;
+	}
+
+
+	.topo { position: fixed;/*para colocar um topo fixo ( foi ajustado para que fiquei apenas uma imagem de canto)*/
+		 top: 100px;
+		 background-image:url(uma/13.jpg);
+		 padding:115px;
+		 width: 0%;
+		 bottom: 525px;
+		 margin-left :10px;
+		 z-index: 2;
+		 height: auto;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="topo">
+	</div>
+
+	<h1>♦ Keaton Henson</h1>
+	<div id="Letra">
+		<p><img class="foto" src="uma/08.jpg"></p>
+		<a href="http://www.keatonhenson.com/"><img src="uma/17.jpg" alt="imagem2"></a>
+		<a href="keaton.html"> <img src="uma/22.jpg"></a>
+	</div>
+
+	<div id="audio">
+ 	<p><h3>Album: Birthdays</h3><audio src="midia/dear.mp3" controls></audio></p>
+ 	
+ 	</div>
+ 	<div id="video">
+	<video controls ="controls">
+		<source type="video/mp4" src="midia/teste.mp4">
+	</video>
+	</div>
+
+	<div id="footer">
+ 	<h2><img src="uma/14.jpg" alt="imagem2"></h2>
+ 
+
+	</div>
+</body>
+</html>
